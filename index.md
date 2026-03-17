@@ -1,48 +1,51 @@
-# 👋 Bonjour, moi c’est Samuel Fradin
-
-Je suis en reconversion vers les métiers du **Cloud et du DevOps**.
-
-🎯 Objectif : intégrer une formation en alternance (Bac+3 → Bac+5)
+[Parcours](about.md) | [Projets](projects.md)
 
 ---
 
-## 🚀 Ce que je construis
+# 👋 Samuel Fradin
 
-Je développe progressivement des compétences en :
+## Cloud & DevOps (en reconversion)
 
-- Infrastructure as Code (Terraform)
-- Cloud AWS
+🎯 Objectif : alternance Bac+3 → Bac+5
+
+---
+
+## 🚀 Compétences en cours de développement
+
+- Terraform (Infrastructure as Code)
+- AWS (VPC, EC2, RDS)
+- Docker (conteneurs)
 - CI/CD (GitLab CI)
-- Conteneurisation (Docker)
-- Développement backend (Python / FastAPI)
+- Python / FastAPI
 
 ---
 
-## 📁 Mes projets
+## 📁 Projets
 
-### 🧱 Infrastructure AWS avec Terraform
+### 🧱 Infrastructure AWS
+
+Déploiement d’une infrastructure complète avec Terraform :
 
 - VPC personnalisé
 - Subnets publics / privés
-- EC2 (Amazon Linux 2023)
-- WordPress via Docker
-- RDS MySQL en privé
-- Accès via AWS Systems Manager
-- Backend Terraform (S3 + DynamoDB)
+- EC2 + Docker (WordPress)
+- RDS MySQL privé
+- Accès via Systems Manager
+- Backend S3 + DynamoDB
 
-👉 Objectif : comprendre et déployer une infrastructure Cloud propre
+👉 Objectif : maîtriser les bases du Cloud et de l’IaC
 
 ---
 
 ### ⚙️ API + CI/CD (en cours)
 
-- API FastAPI (Python)
-- Tests avec pytest
-- Linting avec Ruff
-- Dockerisation
+- API FastAPI
+- Tests (pytest)
+- Lint (Ruff)
+- Docker
 - Pipeline GitLab CI
 
-👉 Objectif : automatiser et structurer un projet applicatif
+👉 Objectif : structurer un projet applicatif et automatiser
 
 ---
 
@@ -60,6 +63,6 @@ Dans cette optique, je m’efforce de :
 
 ---
 
-## 📫 Me contacter
+## 📫 Contact
 
 - GitHub : https://github.com/TomateBleue
