@@ -2,58 +2,123 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Samuel Fradin - Portfolio DevOps</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samuel Fradin - Portfolio Cloud & DevOps</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <div class="container">
 
-<header>
-  <h1>Samuel Fradin</h1>
-  <p>Cloud & DevOps (reconversion)</p>
-</header>
+    <header class="hero">
+      <p class="eyebrow">Portfolio</p>
+      <h1>Samuel Fradin</h1>
+      <p class="subtitle">Reconversion vers le Cloud et le DevOps</p>
+      <p class="intro">
+        Je construis des projets concrets pour développer des compétences en
+        Infrastructure as Code, Cloud AWS, conteneurisation et CI/CD.
+      </p>
 
-<nav>
-  <a href="#">Accueil</a>
-  <a href="#">Projets</a>
-  <a href="#">Parcours</a>
-</nav>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+        <a href="#contact" class="btn btn-secondary">Me contacter</a>
+      </div>
+    </header>
 
-<main>
+    <main>
+      <section class="section" id="about">
+        <h2>À propos</h2>
+        <div class="panel">
+          <p>
+            Je suis en reconversion vers les métiers du Cloud et du DevOps.
+            Mon objectif est d’intégrer une formation en alternance et de
+            construire progressivement une pratique solide, structurée et proche
+            des usages en entreprise.
+          </p>
+          <p>
+            Je privilégie les projets concrets, la documentation et la compréhension
+            des outils plutôt qu’une simple reproduction de tutoriels.
+          </p>
+        </div>
+      </section>
 
-<section>
-  <h2>À propos</h2>
-  <p>
-    Je suis en reconversion vers les métiers du Cloud et du DevOps.
-    Je construis des projets concrets pour développer mes compétences.
-  </p>
-</section>
+      <section class="section" id="stack">
+        <h2>Stack actuelle</h2>
+        <div class="badges">
+          <span class="badge">Terraform</span>
+          <span class="badge">AWS</span>
+          <span class="badge">Docker</span>
+          <span class="badge">Python</span>
+          <span class="badge">FastAPI</span>
+          <span class="badge">GitLab CI</span>
+          <span class="badge">pytest</span>
+          <span class="badge">Ruff</span>
+        </div>
+      </section>
 
-<section>
-  <h2>Projets</h2>
+      <section class="section" id="projects">
+        <h2>Projets</h2>
 
-  <div class="card">
-    <h3>Infrastructure AWS avec Terraform</h3>
-    <p>VPC, EC2, RDS, Docker, backend S3 + DynamoDB</p>
+        <div class="projects-grid">
+          <article class="card">
+            <p class="card-tag">Projet 1</p>
+            <h3>Infrastructure AWS avec Terraform</h3>
+            <p>
+              Mise en place d’une infrastructure Cloud sur AWS avec VPC personnalisé,
+              subnets publics et privés, EC2, WordPress via Docker, base RDS privée
+              et backend Terraform S3 + DynamoDB.
+            </p>
+            <ul>
+              <li>Terraform</li>
+              <li>AWS</li>
+              <li>Docker</li>
+              <li>Systems Manager</li>
+            </ul>
+            <a href="#" class="card-link">Lien projet à ajouter</a>
+          </article>
+
+          <article class="card">
+            <p class="card-tag">Projet 2</p>
+            <h3>API FastAPI + CI/CD</h3>
+            <p>
+              Développement d’une API Task Tracker avec Python et FastAPI,
+              tests avec pytest, linting avec Ruff, conteneurisation Docker
+              et pipeline GitLab CI pour lint, test et build.
+            </p>
+            <ul>
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>pytest</li>
+              <li>GitLab CI</li>
+            </ul>
+            <a href="#" class="card-link">Lien projet à ajouter</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="approach">
+        <h2>Ma démarche</h2>
+        <div class="panel">
+          <p>Je cherche à produire un travail propre et de qualité.</p>
+          <ul class="approach-list">
+            <li>Comprendre ce que je fais</li>
+            <li>Structurer mes projets</li>
+            <li>Documenter mes choix</li>
+            <li>Progresser de manière concrète</li>
+            <li>Me rapprocher des pratiques réelles en entreprise</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <h2>Contact</h2>
+        <div class="panel">
+          <p>GitHub : <a href="https://github.com/TomateBleue" target="_blank">TomateBleue</a></p>
+          <p>GitLab : <a href="#" target="_blank">Lien GitLab à ajouter</a></p>
+          <p>Email : à ajouter</p>
+        </div>
+      </section>
+    </main>
+
   </div>
-
-  <div class="card">
-    <h3>API FastAPI + CI/CD</h3>
-    <p>Python, tests, Docker, GitLab CI</p>
-  </div>
-
-</section>
-
-<section>
-  <h2>Stack</h2>
-  <p>Terraform · AWS · Docker · Python · GitLab CI</p>
-</section>
-
-</main>
-
-<footer>
-  <p>GitLab : ton lien ici</p>
-</footer>
-
 </body>
 </html>
